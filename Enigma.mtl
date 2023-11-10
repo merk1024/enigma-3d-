@@ -1,0 +1,911 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 08.12.2013 22:48:48
+
+newmtl wood
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\wood_texture.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\wood_texture.jpg
+
+newmtl Screws
+	Ns 48.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1608 0.0549 0.0510
+	Ks 0.5580 0.5580 0.5580
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__8_Mask.tga
+
+newmtl METAL
+	Ns 48.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 1.0080 1.0080 1.0080
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__4_Mask.tga
+
+newmtl Instruction_Notice
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Enigma_info_German.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Enigma_info_German.jpg
+
+newmtl LOGO
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Enigma_Logo.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Enigma_Logo.jpg
+
+newmtl plastic
+	Ns 17.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.9000 0.9000 0.9000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl front_panel
+	Ns 15.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.3420 0.3420 0.3420
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\front panel.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\front panel.jpg
+
+newmtl Wires
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1451 0.0314 0.0078
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Wires_material.JPG
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Wires_material.JPG
+
+newmtl cover_material
+	Ns 29.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0510 0.0510 0.0510
+	Ks 0.4320 0.4320 0.4320
+	Ke 0.0000 0.0000 0.0000
+	map_bump -bm 0.3000 Map__3_Noise.tga
+
+newmtl keys_surface
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.2880 0.2880 0.2880
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__882
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Q2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Q2.jpg
+
+newmtl Material__894
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\W2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\W2.jpg
+
+newmtl Material__906
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\E2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\E2.jpg
+
+newmtl Material__918
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\R2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\R2.jpg
+
+newmtl Material__930
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\T2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\T2.jpg
+
+newmtl Material__942
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Z2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Z2.jpg
+
+newmtl Material__954
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\U2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\U2.jpg
+
+newmtl Material__966
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\I2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\I2.jpg
+
+newmtl Material__978
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\O2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\O2.jpg
+
+newmtl Material__990
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\A2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\A2.jpg
+
+newmtl Material__1002
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\S2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\S2.jpg
+
+newmtl Material__1014
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\D2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\D2.jpg
+
+newmtl Material__1026
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\F2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\F2.jpg
+
+newmtl Material__1038
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\G2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\G2.jpg
+
+newmtl Material__1050
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\H2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\H2.jpg
+
+newmtl Material__1062
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\J2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\J2.jpg
+
+newmtl Material__1074
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\K2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\K2.jpg
+
+newmtl Material__1086
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\P2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\P2.jpg
+
+newmtl Material__1098
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Y2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Y2.jpg
+
+newmtl Material__1110
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\X2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\X2.jpg
+
+newmtl Material__1122
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\C2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\C2.jpg
+
+newmtl Material__1134
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\V2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\V2.jpg
+
+newmtl Material__1146
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\B2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\B2.jpg
+
+newmtl Material__1158
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\N2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\N2.jpg
+
+newmtl Material__1170
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\M2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\M2.jpg
+
+newmtl Material__1182
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\L2.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\L2.jpg
+
+newmtl Material__628
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\A.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\A.jpg
+
+newmtl Material__811
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\B.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\B.jpg
+
+newmtl Material__787
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\C.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\C.jpg
+
+newmtl Material__678
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\D.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\D.jpg
+
+newmtl Material__654
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\E.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\E.jpg
+
+newmtl Material__690
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\F.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\F.jpg
+
+newmtl Material__702
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\G.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\G.jpg
+
+newmtl Material__715
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\H.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\H.jpg
+
+newmtl Material__666
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\I.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\I.jpg
+
+newmtl Material__727
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\J.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\J.jpg
+
+newmtl Material__739
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\K.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\K.jpg
+
+newmtl Material__848
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\L.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\L.jpg
+
+newmtl Material__836
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\M.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\M.jpg
+
+newmtl Material__824
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\N.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\N.jpg
+
+newmtl Material__616
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\O.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\O.jpg
+
+newmtl Material__751
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\P.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\P.jpg
+
+newmtl Material__541
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Q.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Q.jpg
+
+newmtl Material__566
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\R.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\R.jpg
+
+newmtl Material__640
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\S.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\S.jpg
+
+newmtl Material__578
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\T.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\T.jpg
+
+newmtl Material__602
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\U.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\U.jpg
+
+newmtl Material__799
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\V.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\V.jpg
+
+newmtl Material__553
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\W.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\W.jpg
+
+newmtl Material__775
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\X.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\X.jpg
+
+newmtl Material__763
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Y.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Y.jpg
+
+newmtl Material__590
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Z.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\Z.jpg
+
+newmtl wire_135006006
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5294 0.0235 0.0235
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__54
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__55
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl rotor_numbers
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\number wheel.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Enigma Machine\Materials\number wheel.jpg
